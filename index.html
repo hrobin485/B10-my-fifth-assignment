@@ -34,14 +34,21 @@
 
     <div class="container mx-auto mt-16">
         <div class="flex justify-center space-x-4">
-            <button class="bg-green-500 text-white font-bold px-4 py-2 rounded-lg">Donation</button>
-            <button class="bg-white text-gray-700 border border-gray-300 px-4 py-2 rounded-lg">History</button>
+            <div id="show-donation">
+                <button 
+             class="bg-green-500 text-white font-bold px-4 py-2 rounded-lg">Donation</button>
+            </div>
+            
+            <div id="show-history">
+                <button 
+             class="bg-white text-gray-700 border border-gray-300 px-4 py-2 rounded-lg">History</button>
+            </div>
         </div>
     </div>
 </header>
 
 <!-- card Section -->
-<section class="mx-[70px] py-[70px]">
+<section id="all-card" class="mx-[70px] py-[70px]">
     <!-- Donation Cards Section -->
     <div class="container mt-5 space-y-8">
         <!-- Card 1 -->
@@ -114,9 +121,19 @@
     </div>
 
 </section>
+
+<!-- History section -->
+ <div id="history" class="hidden">
+    <h1 class="flex justify-center bg-slate-300  font-bold text-3xl  h-11">See Your History</h1>
+
+    <div id="history-container" class="text-2xl font-bold mt-10 mx-16 border-4">
+
+    </div>
+ </div>
 <script src="js/utilities.js"></script>
 <script src="js/card-1.js"></script>
 <script src="js/card-2.js"></script>
 <script src="js/card-3.js"></script>
+<script src="js/feature.js"></script>
 </body>
 </html>
