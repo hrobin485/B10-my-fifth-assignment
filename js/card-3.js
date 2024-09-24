@@ -11,7 +11,7 @@ document.getElementById('donate-now-btn-2').addEventListener('click',function(){
     // add history
     const p = document.createElement('p');
     p.innerText = `${donateInput}Taka is Donated for Aid for Injured in the Quota Movement, Bangladesh`;
-    p.classList.add('bg-green-500','mb-6', 'text-white', 'p-4', 'rounded', 'shadow-lg', 'hover:bg-green-700');
+    p.classList.add('bg-green-500','mb-3', 'text-white', 'p-4', 'rounded', 'shadow-lg', 'hover:bg-green-700');
     document.getElementById('history-container').appendChild(p);
     
 }
