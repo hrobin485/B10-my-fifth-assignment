@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Navbar -->
+  <nav  class="sticky top-0">
+    <div class="container bg-white shadow-md p-4  flex flex-col gap-y-3 items-center
+    lg:flex-row lg:space-x-80 ">
+        <div class="flex items-center space-x-4">
+            <button onclick="window.location.href='index.html'" class="bg-green-500 text-white font-bold px-4 py-2 
+            ml-10 rounded-lg ">Home</button>
+         </div>
+        <div class="flex space-x-2">
+            <div>
+                <img src="images/logo.png" alt="">
+            </div>
+            <div class="mt-2">
+                <h1 class="text-xl font-bold">Donate Bangladesh</h1>
+            </div>
+        </div>
+        <div class="flex space-x-2">
+            <div>
+               <img src="images/coin.png" alt="">
+            </div>
+            <span class="text-yellow-500 font-bold"><span id="main-amount">6000</span> BDT</span>
+           </div></div>
+    </div>     
+  </nav>
+
+  <!-- Blog Section -->
+  <div class="max-w-7xl mx-auto p-8 bg-slate-200">
+    <h2 class="text-3xl font-bold mb-6">Important FAQ</h2>
+
+    <!-- Question 1 -->
+    <div class="mb-8 border-2 border-red-400 p-3">
+      <h3 class="text-2xl font-semibold text-blue-600">1. What is the Document Object Model (DOM)?</h3>
+      <p class="mt-2 text-lg text-gray-700">
+        The Document Object Model (DOM) is a programming interface for web documents. It represents the structure of a document as a tree of objects, which can be manipulated using JavaScript. Every element, attribute, and piece of text in an HTML document becomes a part of the DOM, allowing developers to access and modify it dynamically.
+      </p>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="mb-8 border-2 border-red-400  p-3">
+      <h3 class="text-2xl font-semibold text-blue-600">2. How do you select an element from the DOM?</h3>
+      <p class="mt-2 text-lg text-gray-700">
+        You can select elements from the DOM using various JavaScript methods such as:
+        <ul class="list-disc ml-6 mt-2">
+          <li><code>document.getElementById('id')</code>: Selects an element by its ID.</li>
+        </ul>
+      </p>
+    </div>
+
+    <!-- Question 3 -->
+    <div class="mb-8 border-2 border-red-400  p-3">
+      <h3 class="text-2xl font-semibold text-blue-600">3. What is event delegation in the context of the DOM, and why is it useful?</h3>
+      <p class="mt-2 text-lg text-gray-700">
+        Event delegation is a technique where a single event listener is attached to a parent element to manage events for its child elements. Instead of adding event listeners to individual child elements, you attach one listener to their common ancestor. 
+      </p>
+    </div>
+
+    <!-- Question 4 -->
+    <div class="mb-8 border-2 border-red-400  p-3">
+      <h3 class="text-2xl font-semibold text-blue-600">4. How do you manipulate an element's attributes and styles using the DOM?</h3>
+      <p class="mt-2 text-lg text-gray-700">
+        You can manipulate an element's attributes and styles using JavaScript by:
+        <ul class="list-disc ml-6 mt-2">
+          <li><code>element.setAttribute <br>('attribute','value')</code>:
+            <br> Sets or updates an attribute.</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-white text-black text-center p-4">
+    <p>&copy; 2024 Blog Page</p>
+  </footer>
+
+</body>
+</html>
