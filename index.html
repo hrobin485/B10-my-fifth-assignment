@@ -52,7 +52,7 @@
     <!-- Donation Cards Section -->
     <div class="container mt-5 space-y-8">
         <!-- Card 1 -->
-        <div class="bg-white p-6 rounded-lg shadow-md flex flex-col md:flex-row ">
+        <div class="bg-white p-6 rounded-lg shadow-md flex flex-col  md:flex-row ">
             <img src="images/noakhali.png" alt="Flood Relief Image" class="rounded-lg w-full md:w-1/3">
             <div class="md:ml-6 mt-4 md:mt-0">
                <div class="flex space-x-2 bg-slate-200 rounded-md w-fit h-9 p-1 ">
@@ -69,8 +69,26 @@
                     The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.
                 </p>
                 <input id="donation-amount" type="text" class="border border-gray-300 p-2 rounded-md w-full mb-4" placeholder="Write Donation Amount">
-                <button id="donate-now-btn"
-                class="bg-green-500 text-white font-bold px-4 py-2 rounded-lg w-full">Donate Now</button>
+                <button id="donate-now-btn" 
+                class="bg-green-500 text-white font-bold px-4 py-2 rounded-lg w-full btn"
+                onclick="my_modal_5.showModal()">Donate Now</button>
+                <dialog id="my_modal_5" class="modal modal-bottom    sm:modal-middle">
+                    <div class="modal-box p-4 ">
+                      <h3 class="text-lg font-bold my-2 flex justify-center">Congrates!</h3>
+                      <div class="flex justify-center mb-2">
+                        <img  src="images/coin.png" alt="">
+                      </div>
+                      <p class="mb-2">You Have Donated for Humankind</p>
+                      <h3 class="text-lg font-bold flex justify-center mb-2">Successfully</h3>
+                      <div class="modal-action">
+                        <form method="dialog">
+                          <div class="flex justify-center mb-2">
+                            <button class="btn bg-slate-300 p-2 rounded-lg ">Close Confirmation</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </dialog>
             </div>
         </div>
     
@@ -92,7 +110,25 @@
                 </p>
                 <input id="donation-amount-1" type="text" class="border border-gray-300 p-2 rounded-md w-full mb-4" placeholder="Write Donation Amount">
                 <button id="donate-now-btn-1" 
-                 class="bg-green-500 text-white font-bold px-4 py-2 rounded-lg w-full">Donate Now</button>
+                 class="bg-green-500 text-white font-bold px-4 py-2 rounded-lg w-full btn"  onclick="my_modal_5.showModal()" >Donate Now</button> 
+                 <dialog id="my_modal_4" class="modal modal-bottom    sm:modal-middle">
+                    <div class="modal-box p-4 ">
+                      <h3 class="text-lg font-bold my-2 flex justify-center">Congrates!</h3>
+                      <div class="flex justify-center mb-2">
+                        <img  src="images/coin.png" alt="">
+                      </div>
+                      <p class="mb-2">You Have Donated for Humankind</p>
+                      <h3 class="text-lg font-bold flex justify-center mb-2">Successfully</h3>
+                      <div class="modal-action">
+                        <form method="dialog">
+                          <div class="flex justify-center mb-2">
+                            <button class="btn bg-slate-300 p-2 rounded-lg ">Close Confirmation</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </dialog>
+
             </div>
         </div>
     
@@ -114,7 +150,26 @@
                 </p>
                 <input id="donation-amount-2" type="text" class="border border-gray-300 p-2 rounded-md w-full mb-4" placeholder="Write Donation Amount">
                 <button id="donate-now-btn-2"
-                class="bg-green-500 text-white font-bold px-4 py-2 rounded-lg w-full">Donate Now</button>
+                class="bg-green-500 text-white font-bold px-4 py-2 rounded-lg w-full btn "
+                onclick="my_modal_5.showModal()">Donate Now</button>
+                <dialog id="my_modal_3" class="modal modal-bottom    sm:modal-middle">
+                    <div class="modal-box p-4 ">
+                      <h3 class="text-lg font-bold my-2 flex justify-center">Congrates!</h3>
+                      <div class="flex justify-center mb-2">
+                        <img  src="images/coin.png" alt="">
+                      </div>
+                      <p class="mb-2">You Have Donated for Humankind</p>
+                      <h3 class="text-lg font-bold flex justify-center mb-2">Successfully</h3>
+                      <div class="modal-action">
+                        <form method="dialog">
+                          <div class="flex justify-center mb-2">
+                            <button class="btn bg-slate-300 p-2 rounded-lg ">Close Confirmation</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </dialog>
+              
             </div>
         </div>
     
